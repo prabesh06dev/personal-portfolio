@@ -217,3 +217,29 @@ footer p {
         padding: 45px 0;
     }
 }
+
+
+/* Contact links */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 25px;
+}
+
+.contact-links .button {
+    text-align: center;
+    min-width: 120px;
+}
+
+.contact-links .button:hover {
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.15);
+}
+
+/* Keyboard accessibility */
+a:focus-visible {
+    outline: 3px solid #facc15;
+    outline-offset: 4px;
+}
+
+
